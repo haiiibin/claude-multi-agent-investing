@@ -1,4 +1,7 @@
-# YouTube channels for /youtube-pulse
+# YouTube channels for /youtube-pulse -- reference inventory.
+# NOTE: the actual channel lists live hardcoded in .claude/commands/youtube-pulse.md
+# and .claude/commands/weekly-brief.md (source of truth); edit those to change
+# what gets pulled. Keep this file in sync as the human-readable overview.
 # Each entry: name, url, handle, focus tags, language
 # focus tags drive relevance filtering against holdings.json
 
