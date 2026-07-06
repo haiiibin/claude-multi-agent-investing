@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "yahoo-finance": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/ABSOLUTE/PATH/TO/yahoo-finance-mcp",
+        "server.py"
+      ]
+    }
+  }
+}

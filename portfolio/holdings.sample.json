@@ -1,0 +1,44 @@
+{
+  "_comment": "SAMPLE portfolio with fictional positions. Copy to holdings.json and replace with your own accounts. account_type (taxable/tfsa/rrsp) drives Canadian tax treatment in every command.",
+  "last_updated": "2026-01-01T00:00",
+  "base_currency": "USD",
+  "accounts": [
+    {
+      "id": "broker-a-taxable",
+      "broker": "Example Broker A",
+      "account_type": "taxable",
+      "base_currency": "USD",
+      "cash": { "USD": 5000.00 },
+      "holdings": [
+        {
+          "ticker": "AAPL", "name": "Apple Inc.", "shares": 10,
+          "cost_basis_per_share": 150.00, "cost_basis_total": 1500.00, "currency": "USD",
+          "tags": ["consumer-tech", "mega-cap", "growth"],
+          "thesis": "Sample thesis: ecosystem moat, services mix shift"
+        },
+        {
+          "ticker": "SPY", "name": "SPDR S&P 500 ETF", "shares": 8,
+          "cost_basis_per_share": 480.00, "cost_basis_total": 3840.00, "currency": "USD",
+          "tags": ["us-exposure-etf"],
+          "thesis": "Sample thesis: core passive exposure"
+        }
+      ]
+    },
+    {
+      "id": "broker-b-tfsa",
+      "broker": "Example Broker B",
+      "account_type": "tfsa",
+      "base_currency": "CAD",
+      "cash": { "CAD": 3000.00 },
+      "contribution_room_remaining": null,
+      "holdings": [
+        {
+          "ticker": "XEQT.TO", "name": "iShares Core Equity ETF Portfolio", "shares": 50,
+          "cost_basis_per_share": 30.00, "cost_basis_total": 1500.00, "currency": "CAD",
+          "tags": ["global-etf"],
+          "thesis": "Sample thesis: one-fund global equity core"
+        }
+      ]
+    }
+  ]
+}

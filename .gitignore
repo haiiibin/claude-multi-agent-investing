@@ -1,0 +1,7 @@
+# personal data -- never commit
+portfolio/holdings.json
+notion_config.json
+memory/**
+!memory/**/.gitkeep
+__pycache__/
+*.log

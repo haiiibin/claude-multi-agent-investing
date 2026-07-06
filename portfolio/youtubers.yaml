@@ -1,0 +1,39 @@
+# YouTube channels for /youtube-pulse
+# Each entry: name, url, handle, focus tags, language
+# focus tags drive relevance filtering against holdings.json
+
+channels:
+  - name: 美投君
+    handle: "@MeiTouJun"
+    url: "https://www.youtube.com/@MeiTouJun"
+    language: zh
+    focus: [us-equities, macro, individual-stocks, options]
+    notes: 美股个股深度分析，覆盖科技/半导体/消费
+
+  - name: 美投News
+    handle: "@MeiTouNews"
+    url: "https://www.youtube.com/@MeiTouNews"
+    language: zh
+    focus: [us-market-news, earnings, macro-events]
+    notes: 快讯向，覆盖财报季、宏观事件、市场动态
+
+  - name: Bella Finance
+    handle: "@bellafinance"
+    url: "https://www.youtube.com/@bellafinance"
+    language: zh
+    focus: [canadian-market, etf, personal-finance, tfsa-rrsp]
+    notes: 加拿大投资视角，ETF/账户/税务策略
+
+  - name: Sunny Finance
+    handle: "@SUNNYFINANCE"
+    url: "https://www.youtube.com/@SUNNYFINANCE"
+    language: zh
+    focus: [us-equities, growth-stocks, portfolio-strategy]
+    notes: 美股成长股策略，个人组合分享
+
+  - name: Rhino Finance
+    handle: "@RhinoFinance"
+    url: "https://www.youtube.com/@RhinoFinance"
+    language: zh
+    focus: [us-equities, macro, sector-rotation, options]
+    notes: 宏观+个股结合，注重趋势判断
