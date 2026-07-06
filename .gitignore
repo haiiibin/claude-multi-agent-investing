@@ -2,6 +2,7 @@
 portfolio/holdings.json
 notion_config.json
 memory/**
+!memory/**/
 !memory/**/.gitkeep
 __pycache__/
 *.log
