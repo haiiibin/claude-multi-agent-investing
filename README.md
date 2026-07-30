@@ -9,6 +9,8 @@ TFSA / RRSP), and runs on nothing but a Claude Code subscription plus free data 
 Internally the system calls itself "FA" (Financial Assistant) -- that name shows up in
 `CLAUDE.md` and the bootstrap scripts. All paths below are relative to this repo's root.
 
+![claude-multi-agent-investing demo: /research dispatches 5 personas and 2 analysts, then the portfolio-manager synthesizes a 5-level rating with tax-aware account routing](docs/demo.gif)
+
 ## Agents
 
 | Agent | Role |
