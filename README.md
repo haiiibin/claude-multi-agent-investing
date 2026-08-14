@@ -1,5 +1,9 @@
 # Claude Multi-Agent Investing
 
+[![CI](https://github.com/haiiibin/claude-multi-agent-investing/actions/workflows/ci.yml/badge.svg)](https://github.com/haiiibin/claude-multi-agent-investing/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/haiiibin/claude-multi-agent-investing)](https://github.com/haiiibin/claude-multi-agent-investing/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A Claude Code framework where 12 agents (5 opinionated personas -- Buffett, Munger, Burry,
 bull, bear; 6 fact-gathering analysts; 1 portfolio-manager synthesizer) debate your portfolio
 through 13 slash commands. It is advisory only, tax-aware for Canadian accounts (taxable /
